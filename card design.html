@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS CArd </title>
+    <style>
+        .card-containers{
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: greenyellow;
+            padding: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width:300px;
+            margin: 10px;
+            box-sizing: border-box;
+            box-shadow: 1px 2px 4px rgb(0, 94, 172);
+        }
+        .img-style{
+            width:100%;
+        }
+        .card-body{
+            padding:5px;
+            background-color: aqua;
+        }
+        .card-title{
+            font-size: 2rem;
+            text-align: center;
+        }
+        .card-desc{
+            text-align: justify;
+            line-height: 1.5;
+            color: rgb(226, 73, 12);
+        }
+        .card:hover{
+            box-shadow:6px 12px 10px tomato;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-containers">
+        <div class="card">
+            <img class="img-style" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png" alt="">
+            <div class="card-body">
+                <div class="card-title">
+                    HTML:5 Programming
+                </div>
+                <div class="card-desc">
+                    <p>HTML is the standard markup language for Web pages.
+                        With HTML you can create your own Website.
+                        HTML is easy to learn - You will enjoy it </p>
+                </div>
+            </div>
+        </div> 
+    <div class="card">
+        <img class="img-style" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png" alt="">
+        <div class="card-body">
+            <div class="card-title">
+                HTML:5 Programming
+            </div>
+            <div class="card-desc">
+                <p>HTML is the standard markup language for Web pages.
+                    With HTML you can create your own Website.
+                    HTML is easy to learn - You will enjoy it </p>
+            </div>
+        </div>
+    </div> 
+    <div class="card">
+        <img class="img-style" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png" alt="">
+        <div class="card-body">
+            <div class="card-title">
+                HTML:5 Programming
+            </div>
+            <div class="card-desc">
+                <p>HTML is the standard markup language for Web pages.
+                    With HTML you can create your own Website.
+                    HTML is easy to learn - You will enjoy it </p>
+            </div>
+        </div>
+    </div> 
+</div> 
+</body>
+</html>
