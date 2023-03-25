@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centering Element </title>
+    <style>
+        .main{
+            width:80%;
+            margin:0 auto;
+            background-color: aqua;
+            height: 400px;
+            /*display: flex;
+            justify-content: center;
+            align-items: center;*/
+            position:relative;
+        }
+        .desc{
+            background-color: brown;
+            width: 300px;
+            height: 200px;
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+
+
+        <div class="desc">
+            <h3> Sylhet </h3>
+            <p> Sylhet located in Bangladesh. Sylhet has many tourist spot .Those tourist spots are Bichanakandi,Zero Point.Ratargul swap Forest, Hazrat Shahajalal Mazar,Tea Geader, Sylhet National cricket Stadium and etc</p>
+        </div>
+    </div>
+</body>
+</html>
